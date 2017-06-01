@@ -1,0 +1,32 @@
+#addForm, #addResult, #findForm, #findResult, #addblog, #addcomment, #DeleteForm {
+	display: none;
+
+} 
+
+#label2{
+	color:yellow;
+}
+
+body{
+	backgroundcolor:lightblue;
+}
+
+#loginresult {
+	font-family:verdana;
+	font-size:20px;
+	color:red;
+	text-align:center;
+}
+
+
+#table1 #title3 {
+font-family:verdana;
+	font-size:20px;
+	color:red;
+	text-align:center;	
+	
+}
+.table1class ul li{
+	text-decoration: underline;
+	color:redmm                                         xccccxxxxxccccccxx 
+}

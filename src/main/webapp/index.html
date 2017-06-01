@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Online Library</title>
+<link href="library.css" rel="stylesheet" />
+<script src="jquery-2.1.3.js"></script>
+<script src="library.js"></script>
+
+
+
+</head>
+<body>
+	<h1>S and S Blog Application</h1>
+	<a href="#" id="addUser">Register</a> |
+	<a href="#" id = "login">login</a> |
+	 <a href="#" id = "deleteuser">deleteUser</a> |
+	 <a href="#" id = "updateuser">UpdateUser</a>
+	
+	<hr />
+	<div id='addForm'>
+		<h2>Add New User</h2>
+		<table>
+			<tr>
+				<td>User Name:</td>
+				<td><input id="name1" /></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input id="password1" /></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><button id="addBtn">Add User</button></td>
+			</tr>
+		</table>
+	</div>
+	<div id='addResult'>Successfully added the book!</div>
+	
+	
+	<div id='loginForm'>
+		<h2>Login to Blog</h2>
+		<table>
+			<tr>
+				<td>User Name:</td>
+				<td><input id='name3' /></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input id='password3' /></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><button id = "loginButton">Login</button></td>
+			</tr>
+		</table>
+	</div>
+	
+	<div id = "display"></div>
+	<div id='DeleteForm'>
+		<h2>Delete User</h2>
+		<table>
+			<tr>
+				<td>User Name:</td>
+				<td><input id='name2' /></td>
+			</tr>
+			<tr>
+				<td>Password:</td>
+				<td><input id='password2' /></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><button id = "DeleteButton">Delete</button></td>
+			</tr>
+		</table>
+	</div>
+	
+	
+	
+	
+	<div id = "update1"></div>
+	
+	<div id='UpdateForm'>
+		<h2>Update User</h2>
+		<table>
+			<tr>
+				<td>User Name:</td>
+				<td><input id='name4' /></td>
+			</tr>
+			<tr>
+				<td>Old Password:</td>
+				<td><input id='password4' /></td>
+			</tr>
+			<tr>
+				<td>New Password:</td>
+				<td><input id='newpassword4' /></td>
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><button id = "UpdateButton">Update</button></td>
+			</tr>
+		</table>
+	</div>
+	
+	
+	
+	
+	
+	<div id = "name_feedback"></div>
+	<div id = "loginresult"> </div>
+	
+	<div id='findResult'>
+		<h2>Search Results</h2>
+		<table>
+			<tr>
+				<td>ISBN:</td>
+				<td>123</td>
+			</tr>
+			<tr>
+				<td>Title:</td>
+				<td>asdfaf asdf</td>
+			</tr>
+		</table>
+	</div>
+	
+	
+	
+	
+	<div id='addblog'>
+		<h2>Add New Blog</h2>
+		<table>
+			<tr>
+				<td><label for="Title" id ="label1"> Title1 </label><br><br></td>
+				
+			</tr>
+			<tr>
+				<td><p class="changemytext" id ="blogtext">hello </p>
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><button id="PostBlogBtn">Post Blog</button></td>
+			</tr>
+		</table>
+
+
+		<table>
+			<tr>
+				<td><label for="Title2" id ="label2"> Title2 </label><br><br></td>
+				
+			</tr>
+			<tr>
+				<td>
+				<p class="change1"   id ="comment1">hello </p>
+				</td>
+				
+			</tr>
+			<tr>
+				<td colspan="2" align="right"><button id="PostcommentBtn">Comment on Blog</button></td>
+			</tr>
+		</table>
+	</div>
+
+
+
+
+<!-- 
+<div id='tabs'>
+    <ul>
+        <li><a href='#tab1'>#1</a></li>
+    </ul>
+    <div id='tab1'></div>
+</div>
+	-->
+	
+<div id = 'links' class="linkclass">
+<ul class="linklists">
+
+</ul>
+</div>
+
+
+
+
+
+<div id='MainSearchForm'>
+		<h1 align="center">Blog Search </h1>
+		<table align="center" cellpadding="16" cellspacing="0">
+		
+		
+			<tr>
+				<td colspan="2" align="center"><input id='search1'  /></td>
+			</tr>
+			
+			<tr>
+				<td colspan="1" align="left"><button id = "TitleSearchButton">Search Blog on Title</button></td>
+				<td colspan="1" align="right"><button id = "UserSearchButton">Search Blog on User</button></td>
+			</tr>
+		</table>
+	</div>
+	
+
+
+
+<div id="table1">
+<table border=1  cellpadding="16" cellspacing="0">
+<col width="300px" />
+    <col width="500px" />
+<TR>
+<TD bgcolor ="#CCCCCC">
+<font face="arial" size="-1">
+<ul class = "table1class">
+  
+</ul>
+</font>
+</TD>
+<TD class = "tdclass">
+<font face ="verdana" size="+3"><B id="title3" ></B></font><HR>
+<font face ="verdana" size="-1"><B id="title4" > </B></font> <br>
+<font face ="verdana" size="-1"><B id="title5" > </B></font>
+<HR>
+<p id="p3" class="p3class">
+hi
+</TD>
+</TR>
+</TABLE>
+</div>
+
+	
+	 <button type="button" id="BtnDeletePost">Delete Post</button> 
+	 <button type="button" id="test33">test</button> 
+	
+	<div id="addPostdiv">
+	
+	<table id ="addPosttable" border=0  cellpadding="16" cellspacing="0">
+
+	<tr>
+	<td>  <input id="newTitle" type="text" value="Add title here" /> </td>
+	</tr>
+	
+	<tr>
+	<td> <textarea id = "txtarea1" rows="4" cols="50" >  </textarea> </td>
+	</tr>
+	
+	<tr>
+	<td>
+	 <button type="button" id="BtnAdd">Add Post</button> 
+	<button type="button" id="BtnCancel">Cancel</button> 
+	<button type="button" id="BtnSave">Save</button> 
+	</td>
+	</tr>
+	</div>
+	
+	
+	
+</body>
+</html>

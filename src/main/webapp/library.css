@@ -1,0 +1,63 @@
+#addForm, #addResult, #findForm, #findResult, #addblog, #addcomment, #DeleteForm {
+	display: none;
+
+} 
+
+#label2{
+	color:yellow;
+}
+
+body{
+	backgroundcolor:lightblue;
+}
+
+#loginresult {
+	font-family:verdana;
+	font-size:20px;
+	color:red;
+	text-align:center;
+}
+
+
+#table1 #title3 {
+font-family:verdana;
+	font-size:20px;
+	color:red;
+	text-align:center;	
+	
+}
+
+#table1 #title4 {
+font-family:verdana;
+	font-size:10px;
+	color:Blue;
+	text-align:left;
+	
+}
+
+#table1 #title5 {
+font-family:verdana;
+	font-size:20px;
+	color:green;
+	text-align:right;	
+	
+}
+#table1 .table1class li{
+	text-decoration: underline;
+	color:red                                    
+	
+	}
+	
+#table1 .table1class li:hover{
+	background-color:yellow;                                
+	cursor:pointer;	
+	
+	}
+	
+	
+	#MainSearchForm
+	{
+	 float: center;
+	 margin: 0 0 10px 10px;
+	}
+	
